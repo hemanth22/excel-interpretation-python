@@ -37,3 +37,6 @@ jobs:
 
     - name: Execute excel filter with nse2
       run: python filter_nse2.py
+
+    - name: Execute csv filter with nse2
+      run: python filter_nse_multi_2_csv.py
