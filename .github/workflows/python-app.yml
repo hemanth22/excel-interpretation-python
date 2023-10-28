@@ -40,3 +40,6 @@ jobs:
 
     - name: Execute csv filter with nse2
       run: python filter_nse_multi_2_csv.py
+
+    - name: Execute helper_search
+      run: python helper_search.py
